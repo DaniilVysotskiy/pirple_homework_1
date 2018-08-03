@@ -1,6 +1,6 @@
 # A simple "Hello World" API
 
-Creats https server listening on configurable port.
+Creates https server listening on configurable port. To succesfully start the server `key.pem` and `cert.pem` files should be placed to `/config/https` directory.
 
 Returns user's info on `GET` request to root `/`.
 
