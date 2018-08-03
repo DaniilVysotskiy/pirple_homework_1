@@ -2,6 +2,6 @@
 
 Creats https server listening on configurable port.
 
-Returns basic info about server on GET request to root `/`.
+Returns user's info on `GET` request to root `/`.
 
-Returns greeting message in JSON format on POST request to `/hello`.
+Returns greeting message in JSON format on `GET`/`POST` request to `/hello`.
