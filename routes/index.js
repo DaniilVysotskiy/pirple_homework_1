@@ -1,7 +1,7 @@
 // Define the handlers
 const handlers = {
   root: (data, callback) => {
-    callback(200, {message: `You're on dummy HTTP REST API. Here is info we get from your request: ${data ? JSON.stringify(data) : 'No data'}`})
+    callback(200, {message: `You're on dummy HTTP REST API. Here is info we get from your request: ${data ? JSON.stringify(data) : 'No data'}. Btw, try /hello route!`})
   },
   hello: (data, callback) => {
     callback(200, {message: `Hi, there! You passed data: ${data ? JSON.stringify(data) : 'No data'}`});

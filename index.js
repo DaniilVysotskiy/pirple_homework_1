@@ -33,10 +33,6 @@ const httpsServer = https.createServer(httpsServerOptions, function(req, res) {
   // Get the headers as an object
   let headers = req.headers;
 
-  // Get user's info
-  // const userIp = res.socket.remoteAddress;
-  // const userPort = res.socket.remotePort;
-
   // Get the payload, if any
   let decoder = new StringDecoder('utf-8');
   let payload = '';
